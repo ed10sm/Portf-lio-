@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Site de Edson de Melo, empresário e influenciador digital especializado em estratégias de crescimento empresarial, design e desenvolvimento web">
+    <meta name="keywords" content="Edson de Melo, empresário, influenciador, design, desenvolvimento web, estratégias empresariais">
+    <meta name="author" content="Edson de Melo">
+    <title>Edson de Melo - Empreendedorismo e Renda Extra</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo/pixelcut-export__29_-removebg-preview.png" alt="#home">
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <section id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Transforme seu negócio hoje</h1>
+            <p>Estratégias eficazes para crescimento empresarial e sucesso garantido.</p>
+            <a href="#contato" class="cta-button">Fale comigo</a>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="sobre-container">
+            <img src="sobre-img.jpg" alt="Edson de Melo" />
+            <div class="sobre-texto">
+                <h2>Quem sou eu?</h2>
+                <p>Sou Edson de Melo, empresário com vasta experiência em design, desenvolvimento web e estratégias de crescimento empresarial.</p>
+                <p>Minha missão é ajudar empreendedores a alcançar seus objetivos com soluções criativas e eficazes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <h2>Meus Serviços</h2>
+        <div class="servicos-container">
+            <div class="servico">
+                <i class="fas fa-code"></i>
+                <h3 class="titulo">Desenvolvimento Web</h3>
+                <p>Criação de sites modernos e responsivos para o seu negócio. Oferecemos soluções customizadas, rápidas e eficientes.</p>
+                <a href="#orcamento" class="cta-button">Fazer um Orçamento</a>
+            </div>
+
+            <div class="servico">
+                <i class="fas fa-briefcase"></i>
+                <h3 class="titulo">Gestão de Projetos</h3>
+                <p>Estratégias para gerenciar e expandir sua empresa com eficiência, com o uso das melhores práticas de gestão de projetos.</p>
+                <a href="#orcamento" class="cta-button">Fazer um Orçamento</a>
+            </div>
+
+            <div class="servico">
+                <i class="fas fa-chart-line"></i>
+                <h3 class="titulo">Estratégias de Crescimento</h3>
+                <p>Planos personalizados para o crescimento rápido e sustentável do seu negócio, adaptados às suas necessidades.</p>
+                <a href="#orcamento" class="cta-button">Fazer um Orçamento</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <div class="projetos-container">
+            <div class="projeto">
+                <img src="projeto1.jpg" alt="Projeto de Desenvolvimento Web 1" />
+                <h3>Projeto 1</h3>
+                <p>Desenvolvimento de site para uma empresa de e-commerce.</p>
+            </div>
+            <div class="projeto">
+                <img src="projeto2.jpg" alt="Projeto de Design Gráfico 2" />
+                <h3>Projeto 2</h3>
+                <p>Design de identidade visual para um escritório de advocacia.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="depoimento-container">
+        <div class="depoimento">
+            <img src="https://via.placeholder.com/150" alt="Foto do Depoente" class="foto-depoente">
+            <h2 class="nome-depoente">João Silva</h2>
+            <p class="cargo-depoente">CEO da Empresa X</p>
+            <p class="texto-depoimento">"Este produto mudou a maneira como fazemos negócios. Altamente recomendado!"</p>
+        </div>
+        <button id="proximo-depoimento">Próximo Depoimento</button>
+    </div>
+
+    <section id="contato">
+        <h2>Entre em contato</h2>
+        <div class="contato-container">
+            <form action="#" method="POST">
+                <input type="text" name="nome" placeholder="Seu Nome" required />
+                <input type="email" name="email" placeholder="Seu E-mail" required />
+                <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Edson de Melo. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        }
+    </script>
+</body>
+</html>

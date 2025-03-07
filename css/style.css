@@ -424,45 +424,53 @@ body {
 }
 
 /* Seção Depoimentos */
-#depoimentos {
-    padding: 80px 20px;
-    background-color: #222;
+/* Estilos específicos para o depoimento */
+.depoimento-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    max-width: 300px;
+    margin: 20px auto; /* Centraliza o container */
 }
 
-.depoimentos-container {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 40px;
+.depoimento-container .foto-depoente {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
 }
 
-.depoimento {
-    background-color: #333;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-    width: 300px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.depoimento-container .nome-depoente {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
 }
 
-.depoimento:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+.depoimento-container .cargo-depoente {
+    margin: 5px 0 15px;
+    color: #777;
 }
 
-.depoimento p {
-    font-size: 1.1em;
-    color: #ccc;
-    line-height: 1.8;
-    margin-bottom: 20px;
+.depoimento-container .texto-depoimento {
+    font-style: italic;
+    color: #555;
 }
 
-.depoimento strong {
-    font-size: 1em;
-    color: #fff;
+.depoimento-container button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
+.depoimento-container button:hover {
+    background-color: #0056b3;
+}
 /* Seção Contato */
 #contato {
     padding: 80px 20px;
